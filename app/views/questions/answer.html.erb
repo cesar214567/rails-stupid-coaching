@@ -1,0 +1,26 @@
+<div class="card mb-3 mx-3">
+  <div class="row g-0">
+    <div class="col-md-1 bg-black">
+    </div>
+    <div class="col-md-11">
+      <div class="card-body">
+        <h5 class="card-title"><%= @question %></h5>
+        <p class="card-text">You</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3 mx-3">
+  <div class="row g-0">
+    <div class="col-md-1 bg-danger">
+    </div>
+    <div class="col-md-11">
+      <div class="card-body">
+        <h5 class="card-title"><%= @answer %></h5>
+        <p class="card-text">Coach</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= link_to  "ask a new question", ask_path%>
